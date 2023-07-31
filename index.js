@@ -3,6 +3,7 @@
 
     let saludo = "Bienvenido";
     let persona2 = prompt(`Ingrese su nombre`);
+    console.log ("nuevos datos almacenados");
 
     
     alert(`${saludo} ${persona2}`);
@@ -11,6 +12,7 @@
     let ciudad = prompt("Ingrese una ciudad");
     let codigoPostal = prompt("Ingrese un código postal");
     alert(`${ciudad} ${codigoPostal} compras disponibles!`);
+    console.log (`nuevos datos geograficos; ${ciudad} ${codigoPostal}`);
 
     let numeroif = parseInt(prompt("ingrese su edad"));
     if (numeroif < 18) { alert("Eres menor de edad y nuestro contenido es no apto para ti! te recomendamos que abandones la pagina!") }
@@ -22,15 +24,21 @@
         switch (entrada) {
             case "usuario1":
                 alert("Bienvenido al panel de usuario");
+                entrada = "ESC"
+                console.log ("usuario1 a iniciado sesion!")
                 break;
             case "usuario2":
                 alert("Que bueno verte de vuelta!");
+                entrada = "ESC"
+                console.log ("usuario2 a iniciado sesion!")
                 break;
             default:
                 alert("¿Quién eres?");
+                entrada = prompt("ingresa usuario");
+                console.log ("usuario desconocido")
                 break;
         }
-        entrada = prompt("ingresa usuario");
+        
     }
 }
 
