@@ -1,4 +1,4 @@
-/*
+
 {
 
     let saludo = "Bienvenido";
@@ -69,5 +69,3 @@ function goodbye() {
     alert("Disfruta de la pagina !!!");
 }
 goodbye();
-
-*/ 
