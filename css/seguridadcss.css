@@ -1,5 +1,12 @@
 
 
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
 
 /*-----------------------------------*\
  * #CUSTOM PROPERTY
@@ -690,7 +697,6 @@ main {
 .skills-box.active .skills-list,
 .skills-box .tools-list {
   display: none;
-
 }
 
 .skills-box .skills-list,
