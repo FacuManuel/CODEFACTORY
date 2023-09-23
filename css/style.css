@@ -7,9 +7,15 @@
 
 :root {
 
+
+
+
+  
   /**
    * colors
    */
+
+   
 
   --raw-seinna: hsl(24, 74%, 58%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
@@ -64,13 +70,15 @@
 /*-----------------------------------*\
  * #THEME COLORS
 \*-----------------------------------*/
-
+/*sweet alert cards*/
+.swal2-title {color: white!important;}
+.swal2-html-container {color: white!important;}
 body.dark_theme {
 
   --bg-primary: hsl(0, 0%, 4%);
-  --bg-secondary: hsl(0, 0%, 19%);
+  --bg-secondary: hsl(0, 0%, 19%);   /* hsl(0, 0%, 19%)*/
   --color-primary: hsl(0, 0%, 100%);
-  --color-secondary: hsl(0, 0%, 62%);
+  --color-secondary: hsl(0, 0%, 62%);   /* hsl(0, 0%, 62%);*/
   --card-shadow: hsla(0, 0%, 0%, 0.4);
   --input-bg: hsl(0, 0%, 16%);
 
@@ -1498,3 +1506,5 @@ textarea.input-field {
   }
 
 }
+
+
