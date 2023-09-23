@@ -109,7 +109,7 @@ function mostrarSaludo() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
       title: 'carrousel, responsive grid, anchors with javascript, pop ups!',
-      text: 'Modal with a custom image.',
+      text: 'Simple web page with carousell and some pop ups!',
       width: 600,
       padding: '3em',
       color: '#716add',

@@ -75,13 +75,13 @@
 /*sweet alert cards*/
 .swal2-title {
   color: white !important;
-  text-shadow: 4px 4px 4px rgb(0, 0, 0)!important;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0) !important;
 }
 
 .swal2-html-container {
-  background-color: rgba(3, 3, 3, 0.543)!important;
+  background-color: rgba(3, 3, 3, 0.543) !important;
   color: rgb(255, 255, 255) !important;
-  text-shadow: 4px 4px 4px rgb(0, 0, 0)!important;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0) !important;
   border: 2px solid rgba(0, 0, 0, 0.687);
 }
 
@@ -782,15 +782,28 @@ main {
 }
 
 .project-card::after {
+  background: hsla(0, 0%, 100%, 0.1);
   content: "";
   position: absolute;
   inset: 0;
   border-radius: inherit;
+  top: 0;
+  left: 0;
   transition: var(--transition-1);
+  z-index: -1;
 }
+
+.project-card:hover::after,
+.project-card:focus::after {
+  background: hsla(0, 0%, 100%, 0.1);
+  filter: blur(0.5px);
+}
+
+
 
 .project-card:is(:hover, :focus)::after {
   background: hsla(0, 0%, 100%, 0.1);
+  -webkit-backdrop-filter: blur(0.5px);
   backdrop-filter: blur(0.5px);
 }
 
