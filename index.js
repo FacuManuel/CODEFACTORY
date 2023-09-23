@@ -4,11 +4,11 @@
 function mostrarSaludo() {
     Swal.fire({
       title: 'CodeFactory.',
-      text: '¡Bienvenido a Mi Portfolio!',
+      text: '¡Welcome to My Portfolio!',
       imageUrl: './images/profile.bmp',
       imageWidth: 300,
       imageHeight: 300,
-      imageAlt: 'Imagen de Nike',
+      imageAlt: 'Image Nike',
       customClass: {
   
         popup: 'custom-swal-popup', 
@@ -36,8 +36,8 @@ function mostrarSaludo() {
   document.getElementById('arraunBoton').addEventListener('click', function() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
-      title: 'Go to Load More Work to see more',
-      text: 'Modal with a custom image.',
+      title: 'Go to Load More Work, to see more',
+      text: 'Arraun cocktail bar page, with sub-pages, gallery, transitions, forms, some adds, javascript',
       width: 600,
       padding: '3em',
       color: '#716add',
@@ -55,7 +55,7 @@ function mostrarSaludo() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
       title: 'Go to Load More Work to see more',
-      text: 'Modal with a custom image.',
+      text: 'GitHub profile, access to my repositories, access to my projects!',
       width: 600,
       padding: '3em',
       color: '#716add',
@@ -73,7 +73,7 @@ function mostrarSaludo() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
       title: 'Go to Load More Work to see more',
-      text: 'Modal with a custom image.',
+      text: 'my repositories on GitHub, projects, pages, code for free use!',
       width: 600,
       padding: '3em',
       color: '#716add',
@@ -91,7 +91,7 @@ function mostrarSaludo() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
       title: 'Go to Load More Work to see more',
-      text: 'Modal with a custom image.',
+      text: 'Gallery section in my project for Arraun Cocktail Bar, transition effects, and more! ',
       width: 600,
       padding: '3em',
       color: '#716add',
@@ -108,7 +108,7 @@ function mostrarSaludo() {
   document.getElementById('addsPagina').addEventListener('click', function() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
-      title: 'Go to Load More Work to see more',
+      title: 'carrousel, responsive grid, anchors with javascript, pop ups!',
       text: 'Modal with a custom image.',
       width: 600,
       padding: '3em',
@@ -127,7 +127,7 @@ function mostrarSaludo() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
       title: 'Go to Load More Work to see more',
-      text: 'Modal with a custom image.',
+      text: 'Initial style of the page, responsive and modern grid!',
       width: 600,
       padding: '3em',
       color: '#716add',
@@ -145,7 +145,7 @@ function mostrarSaludo() {
     // Mostrar la alerta SweetAlert
     Swal.fire({
       title: 'Go to Load More Work to see more',
-      text: 'Modal with a custom image.',
+      text: 'Full Javascript page and sweet alert library, contains a user platform and a shopping cart all functional!',
       width: 600,
       padding: '3em',
       color: '#716add',

@@ -1,6 +1,3 @@
-
-
-
 /*-----------------------------------*\
  * #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -10,12 +7,12 @@
 
 
 
-  
+
   /**
    * colors
    */
 
-   
+
 
   --raw-seinna: hsl(24, 74%, 58%);
   --sizzling-sunrise: hsl(51, 95%, 54%);
@@ -70,15 +67,36 @@
 /*-----------------------------------*\
  * #THEME COLORS
 \*-----------------------------------*/
+
+
+
+
+
 /*sweet alert cards*/
-.swal2-title {color: white!important;}
-.swal2-html-container {color: white!important;}
+.swal2-title {
+  color: white !important;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0)!important;
+}
+
+.swal2-html-container {
+  background-color: rgba(3, 3, 3, 0.543)!important;
+  color: rgb(255, 255, 255) !important;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0)!important;
+  border: 2px solid rgba(0, 0, 0, 0.687);
+}
+
+
+
+
+
 body.dark_theme {
 
   --bg-primary: hsl(0, 0%, 4%);
-  --bg-secondary: hsl(0, 0%, 19%);   /* hsl(0, 0%, 19%)*/
+  --bg-secondary: hsl(0, 0%, 19%);
+  /* hsl(0, 0%, 19%)*/
   --color-primary: hsl(0, 0%, 100%);
-  --color-secondary: hsl(0, 0%, 62%);   /* hsl(0, 0%, 62%);*/
+  --color-secondary: hsl(0, 0%, 62%);
+  /* hsl(0, 0%, 62%);*/
   --card-shadow: hsla(0, 0%, 0%, 0.4);
   --input-bg: hsl(0, 0%, 16%);
 
@@ -223,7 +241,7 @@ body.active {
 
 .w-100 {
   width: 100%;
-  filter: drop-shadow( 5px 5px 5px rgb(0, 255, 242));
+  filter: drop-shadow(5px 5px 5px rgb(0, 255, 242));
 }
 
 .btn {
@@ -1015,7 +1033,7 @@ textarea.input-field {
   transform: translateY(10px);
   transition: var(--transition-1);
   z-index: 2;
-  
+
 }
 
 .go-top.active {
@@ -1506,5 +1524,3 @@ textarea.input-field {
   }
 
 }
-
-
